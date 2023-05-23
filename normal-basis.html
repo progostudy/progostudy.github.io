@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Normal Basis - QnA</title>
+    <meta name="description" content="Normal Basis, , , , , , , 0, [Solved] Normal Basis Theorem Proof | 9to5Science, 9to5science.com, 1200 x 630, jpeg, , 20, normal-basis, QnA" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Normal Basis - QnA" />
+    <meta property="og:description" content="Normal Basis, , , , , , , 0, [Solved] Normal Basis Theorem Proof | 9to5Science, 9to5science.com, 1200 x 630, jpeg, , 20, normal-basis, QnA" />
+    <meta property="og:site_name" content="QnA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Normal Basis - QnA" />
+    <meta name="twitter:description" content="Normal Basis, , , , , , , 0, [Solved] Normal Basis Theorem Proof | 9to5Science, 9to5science.com, 1200 x 630, jpeg, , 20, normal-basis, QnA" />
+    <link rel='stylesheet' id='generate-style-css' href='https://progostudy.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://progostudy.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://progostudy.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://progostudy.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://progostudy.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://progostudy.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://progostudy.github.io">Home</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://progostudy.github.io" rel="home"> QnA</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Normal Basis</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">leonorabelmonte6044</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Normal+Basis" alt="Normal Basis">
+                    </div>
+                    <p></p>
+                    <p>Which of the following parameters is the basis of the shape of the normal curve</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#which-of-the-following-parameters-is-the-basis-of-the-shape-of-the-normal-curve">1.
+                                            Which of the following parameters is the basis of the shape of the normal curve</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-is-the-advantage-of-using-the-normal-view-as-a-basis-in-printing-a-document-%e2%80%8b">2.
+                                            what is the advantage of using the normal view as a basis in printing a document? ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-should-be-the-basis-of-the-students-grades-this-first-year-of-the-new-normal-and-why">3.
+                                            What should be the basis of the students' grades this first year of the new normal and why?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-bakery-owner-boss-farmer-was-surprised-by-his-companys-sudden-popularity-he-decided-to-double-the-number-of-products-his-store-produces-on-a-daily-basis-without-much-thought-to-his-dismay-this">4.
+                                            1. Bakery owner Boss Farmer was surprised by his company's sudden popularity. He decided to double the number of products his store produces on a daily basis without much thought. To his dismay, this resulted in some issues, such as doubled amounts of money to buy ingredients or the workers' ability to produce twice as much as they normally do. A friend advised him to begin implementing a proper accounting system. Give at least three advantages to Boss Farmer if he followed his friend's advice.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#7-which-of-the-following-parameters-is-the-basis-of-the-shape-of-the-normal-curvea-varianceb-meanc-standard-deviation-d-both-a-and-b8-where-can-we-find-the-area-of-a-specific-region-under-the-curv">5.
+                                            7. Which of the following parameters is the basis of the shape of the normal curve?A VarianceB MeanC. standard deviation D Both A and B8. Where can we find the area of a specific region under the curve?A Table of ContentsC Table of Areas of Geometric FigureB. Periodic Table of ElementsD Table of Areas Under Normal Curve9. What is another term used for standard normal score?A mean scoreB. X-scoreC. t-scoreD 2-score10. What will you do to find the area between the two z values?A Rewrite the value obtained from z table C. Subtract the obtained value from the Z table to 1B. Calculate the mean and standard deviation D. Subtract the two obtained values from the z table.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#6-to-enable-something-to-happen-means-to-________a-do-it-easilyc-make-it-impossibleb-make-it-possibled-do-it-for-yourself7-_________-heart-disease-and-diabetes-are-three-examples-of-di">6.
+                                            6. To enable something to happen means to ________A. do it easily					C. make it impossibleB. make it possible				D. do it for yourself7. _________, heart disease and diabetes are three examples of diseases suffered by people who fail to exercise enough.A. Good blood pressure				C. Medium blood pressureB. Low blood pressure				D. High blood pressure8. In general, a good level of fitness is_______for everyone.A. beneficial					C. suitableB. normal					D. able9. A good reason for doing sport is the ability to_______your weight.A. keep					C. controlB. remain					D. reserve10. Participation in sporting activities on______is beneficial for students.A. a normal basis				C. an irregular basisB. a regular basis				D. a gradual basis11. Sport is a ______leisure activity.A. global					C. nationalB. international					D. universal12. Doing sports such as badminton and tennis is ______of improving fitness.A. the best way					C. a bad wayB. a good way					D. the worst way13. Developing a good level of fitness helps to _______ health problems and diseases such as high blood pressure and obesity.A. remind					C. avoidB. treat						D. c​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#directions-true-or-false-the-following-are-sentences-define-a-research-report-write-true-if-the-statement-is-correct-write-false-if-the-statement-is-wrong-on-the-blanks_____-1-the-basic-purpose-of">7.
+                                            Directions: True or False. The following are sentences define a Research Report Write True if the statement is correct; write False if the statement is wrong on the blanks_____ 1. The basic purpose of the research report is to communicate the results, conclusions, and recommendations of the research project. ______2. The research methodology section of the report should include a specific discussion of the analysis process. ______3. The findings section of the report is normally the largest section of the report and should be organized in a logical.______ 4. The researcher role is not to just to present facts, but to draw conclusions on the basis of the findings and make recommendation on the basis of the conclusion. _______5. A graph is a method of presenting and arranging data that have been broken down by one or more system of classification.need answer plsss..​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#which-of-the-following-is-the-basis-of-classification-of-the-philippine-folk-dancea-geographical-locationsb-normal-dancec-hip-hop-danced-local-or-regional-danceplease-i-need-answer">8.
+                                            Which of the following is the basis of classification of the Philippine Folk Dance?
+A. Geographical Locations
+B. Normal Dance
+C. Hip-Hop dance
+D. Local or Regional dance
+(PLEASE I NEED ANSWER :(( )</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#mental-health-in-capable-being-which-individual-realizes-and-abilities-to-cope-with-normal-stresses-in-lifemental-health-is-a-state-of-well-being-which-individual-realized-on-abilities-to-cope-with-no">9.
+                                            mental health in capable being which individual realizes and abilities to cope with normal stresses in lifemental health is a state of well-being which individual realized on abilities to cope with normal stress in life now how do you cope up with stress it experience of the following situations and what is your basis how to woman where do you live on about their allowed to school requirements like module outputs and other school related activities ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#read-the-situation-and-tell-how-you-should-manage-yourself-in-such-situation-you-are-invited-on-birthday-party-of-your-bestfriend-to-be-held-on-beach-resort-starting-from-6pm-till-midnight-and-that-w">10.
+                                            Read the situation and tell how you should manage yourself in such situation. You are invited on birthday party of your bestfriend to be held on beach resort starting from 6pm till midnight and that was overnight. You already ask permission to your parents and they allow you to attend on the said event. You meet a lot of different persons there and it's normal that there is a drinking of liquor and party drugs. What should you do? What is your basis for your decision? Explain ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#basi-sa-iyong-mga-naobserbahan-sa-panahon-ng-new-normal-isulat-ang-iyong-mga-karanasan-gamit-ang-mga-uri-ng-pangungusap-%e2%80%8b">11.
+                                            Basi sa iyong mga naobserbahan sa panahon ng New Normal. Isulat ang iyong mga karanasan gamit ang mga uri ng pangungusap.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-is-the-normal-balance-of-the-accounts-receivable-office-suppliesand-rent-expense-accountsa-debitb-credita-business-has-cash-of-p3000-notes-payable-of-p2500-accountspayable-of-p4300-servic">12.
+                                            What is the normal balance of the Accounts Receivable, Office Suppliesand Rent Expense accounts?a.Debitb.CreditA business has Cash of P3,000, Notes Payable of P2,500, AccountsPayable of P4,300, Service Revenue of P7,000, and Rent Expense ofP1,800. On the basis of these data, how much are its total liabilities?a. P5,500b. P9,800c. P6,800d. P13,800​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#a-miracle-is-a-divine-intervention-that-transcends-what-is-normally-perceived-as-natural-law-and-so-to-sayit-cannot-be-explained-upon-any-natural-basis-as-lauren-oliver-puts-it-and-if-we-think-it-f">13.
+                                            A miracle is a divine intervention that transcends what is normally perceived as natural law, and so to sayit cannot be explained upon any natural basis. As Lauren Oliver puts it, and if we think it for ourselves, we willunderstand that each and every bit of our life is a miracle Based from your own experience, enumerate yourmiracles in life using figures of speech "Hyperbole" and "Litotes". You may write a dialogue or three tesentences to give emphasis to your answer​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#read-the-article-below-then-select-one1-factual-and-one1-opinionated-lines-from-the-article-and-defend-why-is-it-factualopinionated-animals-have-a-wide-range-of-normal-skills-some-have-develop">14.
+                                            Read the article below. then, select one(1) factual and one(1) opinionated lines from the article and defend why is it factual/opinionated.ANIMALS HAVE A WIDE RANGE OF NORMAL SKILLS. SOME HAVE DEVELOPED EXTRAORDINARY SKILLS. BATS CAN DETECT OBJECTS ULTRASONICALLY. THEY CAN IDENTIFY OBJECTS ULTRASONICALLY. THEY SEND OUT WAVELENGTS OF  SOUNDS. THE RETURNING ECHOES INDICATE AN OBJECTS SIZE AND POSITION. THE PHRASE "BLIND AS BAT" HAS NO BASIS IN REALITY. IT IS TOTALLY INCORRECT. NEED PO ASAP THANK YOU PO IN ADVANCE ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#activity-1-true-or-false-directions-write-true-if-the-statement-is-correct-and-false-if-the-statement-is-incorrect-on-the-space-provided-in-each-number-underline-the-word-that-made-it-incorrect">15.
+                                            ACTIVITY 1: TRUE OR FALSE Directions: Write "True" if the statement is correct and "False" if the statement is incorrect on the space provided in each number. Underline the word that made it incorrect 1. Proportion is the ratio of the height and width of the letters. 2. The height is the basis of the proportion of the width of the letters. 3. Compressed proportion of the letters is neither too narrow nor too wide. 4. The normal proportion of the letters has is width narrower than its height. 5. Extended proportion of the letters has its width wider than its height. 6. The normal proportion of letters is intended for narrow space. 7. If the space given is adequate enough, extended proportion of the letters should be applied.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#true-or-false5-great-philosophers-questioned-about-reality-6-human-beings-are-free-to-engage-in-the-pursuit-of-wisdom-and-knowledge-7-philosophizing-is-just-a-normal-question-8-knowledge-is-the">16.
+                                            True or False5. Great philosophers questioned about reality. 6. Human beings are free to engage in the pursuit of wisdom and knowledge. 7. Philosophizing is just a normal question.8. Knowledge is the correct application of wisdom 9. To philosophize is to look at life from a holistic perspective. 10. Philosophical questions seek for an answer that require adequate justification or rational basis.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#based-on-a-physical-inventory-taken-at-year-end-chewy-company-determined-the-chocolate-inventory-on-a-fifo-basis-at-p5200000-with-a-replacement-cost-of-p4000000-the-entity-estimated-that-after-f">17.
+                                            Based on a physical inventory taken at year-end, chewy company determined the chocolate inventory on a fifo basis at p5,200,000 with a replacement cost of p4,000,000. the entity estimated that after further processing costs of p2,400,000, the chocolate could be sold as finished candy bars for p8,000,000. the normal profit margin is 10% sales. using the measurement at the lower of cost and net realizable value, what amount should be reported as chocolate inventory at year-end</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#4-why-do-you-think-media-affect-the-normsof-the-people-in-the-societya-because-media-is-part-of-our-daily-lives-b-because-media-entertains-and-informs-thepeople-in-the-societyc-because-media-the">18.
+                                            4. Why do you think media affect the normsof the people in the society?a. because media is part of our daily lives.b. because media entertains and informs thepeople in the societyc. because media the watchdog of the peopleand the government.d. because media influence the behaviour ofthe people in the society for example themobile phones or computer in a daily basismay affect your routine and normal activityin a daily basis.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#during-this-day-of-pandemic-give-your-ideas-on-how-do-you-acquire-learning-on-your-online-classes-or-on-modular-basis-state-your-opinion-how-propaganda-and-its-devices-or-techniques-will-be-helpful">19.
+                                            During this day of pandemic, give your ideas on how do you acquire learning on your online classes or on modular basis? State your opinion. How propaganda and its devices or techniques will be helpful to you now that we are in new normal situation.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#a-good-example-of-a-common-cost-which-normally-could-not-be-assigned-to-products-on-a-segmented-income-statement-except-on-an-arbitrary-basis-would-be">20.
+                                            A good example of a common cost which normally could not be assigned to products on a segmented income statement except on an arbitrary basis would be:</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#you-are-invited-on-a-birthday-party-of-your-bestfriend-to-be-held-on-a-beach-resort-starting-from-6pm-till-midnight-and-that-was-overnight-you-already-ask-permission-to-your-parents-and-they-allow-yo">21.
+                                            You are invited on a birthday party of your bestfriend to be held on a beach resort starting from 6pm till midnight and that was overnight. You already ask permission to your parents and they allow you to attend on the said event. You meet a lot of different persons there and it's normal that there is a drinking of liquor and party drugs. What should you do? What is your basis for your decision? Explain.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-the-ability-of-the-body-to-maintain-a-relatively-constant-equilibrium2-the-study-of-butterflies-and-moths-3-the-human-bodys-normal-temperature-4-the-father-of-zoology-and-biology5-the-science">22.
+                                            1. The ability of the body to maintain a relatively constant equilibrium2. The study of butterflies and moths.3. The human body's normal temperature.4. The father of zoology and biology5. The science of naming/classification.6. The study of primates.7. It is the study of evolution as the basis fo8. The study of the bodily processes that a9. The study of ants.10. The scientist who developed the theory of evolution​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#manufactures-brass-musical-instruments-for-use-by-high-school-students-the-company-uses-a-normal-costing-system-in-which-manufacturing-overhead-is-applied-on-the-basis-of-direct-labor-hours">23.
+                                            Manufactures brass musical instruments for use by high school students. the company uses a normal costing system, in which manufacturing overhead is applied on the basis of direct-labor hours</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bank-reconciliations-are-normally-prepared-on-a-monthly-basis-to-identify-adjustments-needed-in-the-depositors-records-and-to-identify-bank-errors-adjustments-on-the-part-of-the-depositor-shall-be-r">24.
+                                            Bank reconciliations are normally prepared on a monthly basis to identify adjustments needed in the depositor's records and to identify bank errors. adjustments on the part of the depositor shall be recorded for</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#5-binge-eating-disorder-is-different-from-normal-appetite-increase-or-overeatingduring-holidays-those-with-a-binge-eating-problem-eat-large-amounts-of-foodbasis-they-eat-quickly-or-most-often-do-so">25.
+                                            5. Binge eating disorder is different from normal appetite increase or overeatingduring holidays. Those with a binge eating problem eat large amounts of foodbasis. They eat quickly or most often do something while eating.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-should-be-the-basis-of-grader-students-in-the-first-year-of-the-new-normal-and-why%e2%80%8b">26.
+                                            what should be the basis of grader students in the first year of the new normal and why?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#true-or-false-write-the-explanation31-the-graph-of-a-normal-distribution-is-asymptotic-to-the-y-axis32-inflection-point-is-the-point-at-which-a-change-in-the-direction-of-curve-at-median-minusstanda">27.
+                                            true or false.write the explanation31. The graph of a normal distribution is asymptotic to the Y-axis32. Inflection point is the point at which a change in the direction of curve at median minusstandard deviation and mean plus standard deviation.33.In a normal distribution about 88.3% of the area under the curve falls wihin 1standard deviation of the mean34. The variance and standard deviation describe the amount of spread, dispersion, orvariability of the items in a distribution35. Systematic random sampling is a sampling procedure in which members ofthe population are grouped on the basis of their homogeneity.36.A statistic is descriptive popu ation measure37. Parameter is the number that describes the sample.38. A random variable is a qualitative variable which value depends on change59. The Mean of a discrete random variable is also called as the expected value40 Multi-stage sampling uses a combination of different sampling techniques​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-on-the-basis-of-the-assessment-instruction-process-write-down-your-thoughts-as-to-how-this-process-works-relate-your-line-of-discussions-in-a-regular-classroom-setting-and-compare-this-in-the-way">28.
+                                            1.on the basis of the assessment-instruction process, write down your thoughts as to how this process works. relate your line of discussions in a regular classroom setting and compare this in the way assessment can be administered in these times of "new normal".</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#it-is-the-source-of-norms-values-symbols-and-language-which-provide-the-basis-for-the-normal-functioning-of-an-individual-a-counselor-must-include-openness-to-appreciate-the-nature%e2%80%8b">29.
+                                            it is the source of norms values symbols and language which provide the basis for the normal functioning of an individual a counselor must include openness to appreciate the nature​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#a-survey-was-conducted-in-a-particular-school-in-order-to-find-out-the-chosen-learning-modalities-of-the-students-for-the-new-normal-set-up-of-distance-education-the-results-serve-as-basis-for-the-pr">30.
+                                            A survey was conducted in a particular school in order to find out the chosen learning modalities of the students for the new normal set-up of distance education. The results serve as basis for the preparation of learning materials for the upcoming opening of classes for school year 2020-2021.​ </a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="which-of-the-following-parameters-is-the-basis-of-the-shape-of-the-normal-curve">
+                            1. Which of the following parameters is the basis of the shape of the normal curve</h2><br />
+                        <p><strong>Answer:</strong></p><p>mean and standard deviation</p><p><strong>Step-by-step explanation:</strong></p><p>because without mean and standard deviation its hard to calculate</p><br />
+                                            <h2 class="ez-toc-section" id="what-is-the-advantage-of-using-the-normal-view-as-a-basis-in-printing-a-document-%e2%80%8b">
+                            2. what is the advantage of using the normal view as a basis in printing a document? ​</h2><br />
+                        <strong>PowerPoint</strong> is regarded as the most useful, accessible way to create and present visual aids; others believe it has its own mind-set which forces presenters to spend countless hours thinking in PowerPoint and developing slides.<strong>Advantage</strong>—easy to create colorful, attractive designs using the standard templates and themes; easy to follow the message.<strong>Disadvantage</strong>—speakers create slides so they have something to present rather than outlining, organizing, and focusing on their message.<strong>Disadvantage</strong>—the linear nature of PowerPoint slides forces the presenter to reduce complex subjects to a set of bullet items which are too weak to support decision-making or show the complexity of an issue.<p><strong>Disadvantage</strong>—basic equipment required to present. You will need to have a computer and projection equipment in place to display the slides to the audience. </p><p></p>Wala akong Mahanap na Advantages Isa Lang. Puro Advantages Lang yan. <p></p><strong>Pa</strong><strong> </strong><strong>Brainliest</strong><strong>/</strong><strong>heart</strong><strong>/</strong><strong>Follow</strong><strong> </strong><br />
+                                            <h2 class="ez-toc-section" id="what-should-be-the-basis-of-the-students-grades-this-first-year-of-the-new-normal-and-why">
+                            3. What should be the basis of the students' grades this first year of the new normal and why?</h2><br />
+                        <p><strong>Answer:</strong></p>The New Normal for Students and Schools
+<strong>In the middle of a pandemic, it's impossible to set expectations. We had deadlines when this all started, and they were either reached or not. Sticking to deadlines was already a hard and quick guideline for some high school teachers and college professors when the pandemic started. Other teachers, on the other hand, were more lenient with pupils, recognizing that everyone was going through a tough time. For students who were demotivated by COVID-19, this system performed fairly well. However, as this has been our current routine, getting back on track would take some tinkering, much like anything else.</strong><p><strong>Explanation:</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-bakery-owner-boss-farmer-was-surprised-by-his-companys-sudden-popularity-he-decided-to-double-the-number-of-products-his-store-produces-on-a-daily-basis-without-much-thought-to-his-dismay-this">
+                            4. 1. Bakery owner Boss Farmer was surprised by his company's sudden popularity. He decided to double the number of products his store produces on a daily basis without much thought. To his dismay, this resulted in some issues, such as doubled amounts of money to buy ingredients or the workers' ability to produce twice as much as they normally do. A friend advised him to begin implementing a proper accounting system. Give at least three advantages to Boss Farmer if he followed his friend's advice.​</h2><br />
+                        <p>Some advantages to Boss Farmer if he followed his friend's advice are <strong>Financial Information, Material for Financial Evaluation, as a Tool for Control and Financial Evidence</strong>, and as a Tool for Managing Finance.</p><p></p><p>Not just a bookkeeping technique that only includes recording transactions. <strong>The benefits of accounting</strong> are quite important for businesses that will have a major impact on the development of the business.</p><p><strong>1. As Financial Information</strong></p><p>The accounting process will provide financial information for parties who need it, both internal and external parties. This financial information can be used <strong>as a basis for making managerial decisions.</strong></p><p><strong>2. As Material for Financial Evaluation</strong></p><p>By knowing financial information, the company <strong>can know what needs to be done in the future.</strong> For example, after making financial records, someone finds out that their finances are having problems because they are too wasteful in buying production materials.</p><p><strong>3. As a Control Tool and Financial Evidence</strong></p><p>Financial records that are done well will help in completing finances without second-guessing expenses. Accounting can also be a control tool to control finances. That way, the company has a <strong>basis for allocating its resources.</strong></p><p><strong>4. As a tool for managing finances</strong></p><p><strong>Financial records will greatly assist each party</strong> in managing their finances. Accounting, it can take into account various daily needs so that expenses do not swell.</p><p></p><p><strong>For more information about accounting</strong>, you can visit here https://brainly.ph/question/14001965?</p><p></p><p><strong>#SPJ1</strong></p><br />
+                                            <h2 class="ez-toc-section" id="7-which-of-the-following-parameters-is-the-basis-of-the-shape-of-the-normal-curvea-varianceb-meanc-standard-deviation-d-both-a-and-b8-where-can-we-find-the-area-of-a-specific-region-under-the-curv">
+                            5. 7. Which of the following parameters is the basis of the shape of the normal curve?A VarianceB MeanC. standard deviation D Both A and B8. Where can we find the area of a specific region under the curve?A Table of ContentsC Table of Areas of Geometric FigureB. Periodic Table of ElementsD Table of Areas Under Normal Curve9. What is another term used for standard normal score?A mean scoreB. X-scoreC. t-scoreD 2-score10. What will you do to find the area between the two z values?A Rewrite the value obtained from z table C. Subtract the obtained value from the Z table to 1B. Calculate the mean and standard deviation D. Subtract the two obtained values from the z table.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>7.d</p><p>8.d</p><p>9.a</p><p>10.b</p><p><strong>Step-by-step explanation:</strong></p><p> i hope it help po</p><p>and pls mark me as a brainly</p><p>and pa thanks na rin po ty</p><br />
+                                            <h2 class="ez-toc-section" id="6-to-enable-something-to-happen-means-to-________a-do-it-easilyc-make-it-impossibleb-make-it-possibled-do-it-for-yourself7-_________-heart-disease-and-diabetes-are-three-examples-of-di">
+                            6. 6. To enable something to happen means to ________A. do it easily					C. make it impossibleB. make it possible				D. do it for yourself7. _________, heart disease and diabetes are three examples of diseases suffered by people who fail to exercise enough.A. Good blood pressure				C. Medium blood pressureB. Low blood pressure				D. High blood pressure8. In general, a good level of fitness is_______for everyone.A. beneficial					C. suitableB. normal					D. able9. A good reason for doing sport is the ability to_______your weight.A. keep					C. controlB. remain					D. reserve10. Participation in sporting activities on______is beneficial for students.A. a normal basis				C. an irregular basisB. a regular basis				D. a gradual basis11. Sport is a ______leisure activity.A. global					C. nationalB. international					D. universal12. Doing sports such as badminton and tennis is ______of improving fitness.A. the best way					C. a bad wayB. a good way					D. the worst way13. Developing a good level of fitness helps to _______ health problems and diseases such as high blood pressure and obesity.A. remind					C. avoidB. treat						D. c​</h2><br />
+                        <p><strong>Answer:</strong></p><p>6. D.</p><p>7. B.</p><p>8. B</p><p>9. C.</p><p>10. C.</p><p>11. B.</p><p>12. B or A? you can pick</p><p>13. A.</p><p>hope it helps to you</p><br />
+                                            <h2 class="ez-toc-section" id="directions-true-or-false-the-following-are-sentences-define-a-research-report-write-true-if-the-statement-is-correct-write-false-if-the-statement-is-wrong-on-the-blanks_____-1-the-basic-purpose-of">
+                            7. Directions: True or False. The following are sentences define a Research Report Write True if the statement is correct; write False if the statement is wrong on the blanks_____ 1. The basic purpose of the research report is to communicate the results, conclusions, and recommendations of the research project. ______2. The research methodology section of the report should include a specific discussion of the analysis process. ______3. The findings section of the report is normally the largest section of the report and should be organized in a logical.______ 4. The researcher role is not to just to present facts, but to draw conclusions on the basis of the findings and make recommendation on the basis of the conclusion. _______5. A graph is a method of presenting and arranging data that have been broken down by one or more system of classification.need answer plsss..​</h2><br />
+                        <p><strong>Answer:</strong></p><p>1.T</p><p>2.F</p><p>3.F</p><p>4.T</p><p>5.T</p><p><strong>Explanation:</strong></p><p>SANA MAKATULOG PO ITO SA INYO</p><p>CORRECT ME IF I'M WRONG</p><br />
+                                            <h2 class="ez-toc-section" id="which-of-the-following-is-the-basis-of-classification-of-the-philippine-folk-dancea-geographical-locationsb-normal-dancec-hip-hop-danced-local-or-regional-danceplease-i-need-answer">
+                            8. Which of the following is the basis of classification of the Philippine Folk Dance?
+A. Geographical Locations
+B. Normal Dance
+C. Hip-Hop dance
+D. Local or Regional dance
+(PLEASE I NEED ANSWER :(( )</h2><br />
+                        <p><strong>Answer:</strong></p><p>D.LOCAL OR REGIONAL DANCE</p><p><strong>Explanation:</strong></p><p>There are five types of folk dances in the Philippines. Namely: Maria Clara Dance, Cordillera Dance, Muslim Dance, Rural Dance, and Tribal Dance. ... tribal dances performed essential "for the gods" ceremonial and ritual type dances.</p><p><strong>PA</strong><strong> </strong><strong>BRAINLIEST</strong><strong> </strong><strong>PO</strong><strong>.</strong><strong>.</strong></p><p><strong>#CARRYONLEARNING</strong></p><p><strong>#BRAINLYPH</strong></p><p><strong>Answer:</strong></p><p>is d </p><p><strong>Explanation:</strong></p><p>because hip hop is for everyone</p><p>geographical locations is location not dance</p><p>normal is no t fun or boring</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="mental-health-in-capable-being-which-individual-realizes-and-abilities-to-cope-with-normal-stresses-in-lifemental-health-is-a-state-of-well-being-which-individual-realized-on-abilities-to-cope-with-no">
+                            9. mental health in capable being which individual realizes and abilities to cope with normal stresses in lifemental health is a state of well-being which individual realized on abilities to cope with normal stress in life now how do you cope up with stress it experience of the following situations and what is your basis how to woman where do you live on about their allowed to school requirements like module outputs and other school related activities ​</h2><br />
+                        <p><strong>Answer:</strong></p><p>jtbwb jbbe ui i nw jtbwb ne </p><p><strong>Answer:</strong></p>According to the World Health Organization (WHO), mental health is “a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community” (1).<p><strong>Explanation:</strong></p><p>Pa brainliest at follow po:)</p><br />
+                                            <h2 class="ez-toc-section" id="read-the-situation-and-tell-how-you-should-manage-yourself-in-such-situation-you-are-invited-on-birthday-party-of-your-bestfriend-to-be-held-on-beach-resort-starting-from-6pm-till-midnight-and-that-w">
+                            10. Read the situation and tell how you should manage yourself in such situation. You are invited on birthday party of your bestfriend to be held on beach resort starting from 6pm till midnight and that was overnight. You already ask permission to your parents and they allow you to attend on the said event. You meet a lot of different persons there and it's normal that there is a drinking of liquor and party drugs. What should you do? What is your basis for your decision? Explain ​</h2><br />
+                        <p><strong>Answer:</strong></p><p>As a responsible daughter, I would still try to have some fun drinking liquor but I will avoid getting included in something that will damage me and make my parents worried. </p><br />
+                                            <h2 class="ez-toc-section" id="basi-sa-iyong-mga-naobserbahan-sa-panahon-ng-new-normal-isulat-ang-iyong-mga-karanasan-gamit-ang-mga-uri-ng-pangungusap-%e2%80%8b">
+                            11. Basi sa iyong mga naobserbahan sa panahon ng New Normal. Isulat ang iyong mga karanasan gamit ang mga uri ng pangungusap.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>sorry hende ko po alm yng answer</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="what-is-the-normal-balance-of-the-accounts-receivable-office-suppliesand-rent-expense-accountsa-debitb-credita-business-has-cash-of-p3000-notes-payable-of-p2500-accountspayable-of-p4300-servic">
+                            12. What is the normal balance of the Accounts Receivable, Office Suppliesand Rent Expense accounts?a.Debitb.CreditA business has Cash of P3,000, Notes Payable of P2,500, AccountsPayable of P4,300, Service Revenue of P7,000, and Rent Expense ofP1,800. On the basis of these data, how much are its total liabilities?a. P5,500b. P9,800c. P6,800d. P13,800​</h2><br />
+                        <p>anser</p><p>1. b</p><p>2. d</p><p>( • . •) gusto mo </p><p>/ &gt; </p><p>{__/}</p><p>( • - •) lah asa ka</p><p>&lt;\</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="a-miracle-is-a-divine-intervention-that-transcends-what-is-normally-perceived-as-natural-law-and-so-to-sayit-cannot-be-explained-upon-any-natural-basis-as-lauren-oliver-puts-it-and-if-we-think-it-f">
+                            13. A miracle is a divine intervention that transcends what is normally perceived as natural law, and so to sayit cannot be explained upon any natural basis. As Lauren Oliver puts it, and if we think it for ourselves, we willunderstand that each and every bit of our life is a miracle Based from your own experience, enumerate yourmiracles in life using figures of speech "Hyperbole" and "Litotes". You may write a dialogue or three tesentences to give emphasis to your answer​</h2><br />
+                        <p><strong>Explanation:</strong></p><p>hindi ko po maintindihan</p><br />
+                                            <h2 class="ez-toc-section" id="read-the-article-below-then-select-one1-factual-and-one1-opinionated-lines-from-the-article-and-defend-why-is-it-factualopinionated-animals-have-a-wide-range-of-normal-skills-some-have-develop">
+                            14. Read the article below. then, select one(1) factual and one(1) opinionated lines from the article and defend why is it factual/opinionated.ANIMALS HAVE A WIDE RANGE OF NORMAL SKILLS. SOME HAVE DEVELOPED EXTRAORDINARY SKILLS. BATS CAN DETECT OBJECTS ULTRASONICALLY. THEY CAN IDENTIFY OBJECTS ULTRASONICALLY. THEY SEND OUT WAVELENGTS OF  SOUNDS. THE RETURNING ECHOES INDICATE AN OBJECTS SIZE AND POSITION. THE PHRASE "BLIND AS BAT" HAS NO BASIS IN REALITY. IT IS TOTALLY INCORRECT. NEED PO ASAP THANK YOU PO IN ADVANCE ​</h2><br />
+                        <p><strong>Answer:</strong></p>hindi ko kaya yan sagutan hirap<br />
+                                            <h2 class="ez-toc-section" id="activity-1-true-or-false-directions-write-true-if-the-statement-is-correct-and-false-if-the-statement-is-incorrect-on-the-space-provided-in-each-number-underline-the-word-that-made-it-incorrect">
+                            15. ACTIVITY 1: TRUE OR FALSE Directions: Write "True" if the statement is correct and "False" if the statement is incorrect on the space provided in each number. Underline the word that made it incorrect 1. Proportion is the ratio of the height and width of the letters. 2. The height is the basis of the proportion of the width of the letters. 3. Compressed proportion of the letters is neither too narrow nor too wide. 4. The normal proportion of the letters has is width narrower than its height. 5. Extended proportion of the letters has its width wider than its height. 6. The normal proportion of letters is intended for narrow space. 7. If the space given is adequate enough, extended proportion of the letters should be applied.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>T</p><p>T</p><p>T</p><p>T</p><p>F</p><p>F</p><p>T</p><p><strong>Explanation:</strong></p><p>pa brainliest po salamat </p><br />
+                                            <h2 class="ez-toc-section" id="true-or-false5-great-philosophers-questioned-about-reality-6-human-beings-are-free-to-engage-in-the-pursuit-of-wisdom-and-knowledge-7-philosophizing-is-just-a-normal-question-8-knowledge-is-the">
+                            16. True or False5. Great philosophers questioned about reality. 6. Human beings are free to engage in the pursuit of wisdom and knowledge. 7. Philosophizing is just a normal question.8. Knowledge is the correct application of wisdom 9. To philosophize is to look at life from a holistic perspective. 10. Philosophical questions seek for an answer that require adequate justification or rational basis.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>5. Trur</p><p>6. True</p><p>7. False </p><p>8 True </p><p>9  False </p><p>10 False</p><p><strong>Explanation:</strong></p><p>finished</p><br />
+                                            <h2 class="ez-toc-section" id="based-on-a-physical-inventory-taken-at-year-end-chewy-company-determined-the-chocolate-inventory-on-a-fifo-basis-at-p5200000-with-a-replacement-cost-of-p4000000-the-entity-estimated-that-after-f">
+                            17. Based on a physical inventory taken at year-end, chewy company determined the chocolate inventory on a fifo basis at p5,200,000 with a replacement cost of p4,000,000. the entity estimated that after further processing costs of p2,400,000, the chocolate could be sold as finished candy bars for p8,000,000. the normal profit margin is 10% sales. using the measurement at the lower of cost and net realizable value, what amount should be reported as chocolate inventory at year-end</h2><br />
+                        <p><strong>Answer:</strong></p><p>5,200,000</p><p><strong>Explanation:</strong></p><p><strong>= 5,200,000</strong></p><p><strong>= 8,000,000 - 2,400,000 = 5,640,000</strong></p><p><strong></strong></p><p><strong>Since, LNCRV requires to choose lesser the amount. In this case, the lesser amount between 5,200,000 and 5,640,000 is 5,200,000. Therefore, the answer is 5,200,000.</strong></p><p><strong></strong></p><br />
+                                            <h2 class="ez-toc-section" id="4-why-do-you-think-media-affect-the-normsof-the-people-in-the-societya-because-media-is-part-of-our-daily-lives-b-because-media-entertains-and-informs-thepeople-in-the-societyc-because-media-the">
+                            18. 4. Why do you think media affect the normsof the people in the society?a. because media is part of our daily lives.b. because media entertains and informs thepeople in the societyc. because media the watchdog of the peopleand the government.d. because media influence the behaviour ofthe people in the society for example themobile phones or computer in a daily basismay affect your routine and normal activityin a daily basis.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>D. because media influence the behavior of the people in the society for example the mobile phones or computer in a daily basis may affect your routine and normal activity in a daily basis.</p><br />
+                                            <h2 class="ez-toc-section" id="during-this-day-of-pandemic-give-your-ideas-on-how-do-you-acquire-learning-on-your-online-classes-or-on-modular-basis-state-your-opinion-how-propaganda-and-its-devices-or-techniques-will-be-helpful">
+                            19. During this day of pandemic, give your ideas on how do you acquire learning on your online classes or on modular basis? State your opinion. How propaganda and its devices or techniques will be helpful to you now that we are in new normal situation.</h2><br />
+                        <p><strong>Answer:</strong></p><p><strong>Keep in work</strong>
+</p><p>Online, you need to make a conscious effort to stay connected. So reach out to your professor with questions, participate in online discussions Plan ahead. </p><p><strong>Manage time wisely</strong></p><p>Your hectic schedule, combined with daily distractions, can easily get in the way of finishing tasks.</p><p></p><p><strong>Explanation:</strong></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="a-good-example-of-a-common-cost-which-normally-could-not-be-assigned-to-products-on-a-segmented-income-statement-except-on-an-arbitrary-basis-would-be">
+                            20. A good example of a common cost which normally could not be assigned to products on a segmented income statement except on an arbitrary basis would be:</h2><br />
+                        <p><strong>Answer:</strong></p><p>a common cost is to j.a.k.o.l. every day every night j.a.k.o.l me u.g.h</p><p><strong>Explanation:</strong></p><p>J.a.k.o.l is layo</p><br />
+                                            <h2 class="ez-toc-section" id="you-are-invited-on-a-birthday-party-of-your-bestfriend-to-be-held-on-a-beach-resort-starting-from-6pm-till-midnight-and-that-was-overnight-you-already-ask-permission-to-your-parents-and-they-allow-yo">
+                            21. You are invited on a birthday party of your bestfriend to be held on a beach resort starting from 6pm till midnight and that was overnight. You already ask permission to your parents and they allow you to attend on the said event. You meet a lot of different persons there and it's normal that there is a drinking of liquor and party drugs. What should you do? What is your basis for your decision? Explain.​</h2><br />
+                        <p>I will not follow them for placing myself in dangered... Cause if we do, may lead and affect our health especially using party drugd</p><br />
+                                            <h2 class="ez-toc-section" id="1-the-ability-of-the-body-to-maintain-a-relatively-constant-equilibrium2-the-study-of-butterflies-and-moths-3-the-human-bodys-normal-temperature-4-the-father-of-zoology-and-biology5-the-science">
+                            22. 1. The ability of the body to maintain a relatively constant equilibrium2. The study of butterflies and moths.3. The human body's normal temperature.4. The father of zoology and biology5. The science of naming/classification.6. The study of primates.7. It is the study of evolution as the basis fo8. The study of the bodily processes that a9. The study of ants.10. The scientist who developed the theory of evolution​</h2><br />
+                        1.Homeostasis2.Lepidopterology3.98.6°F (37°C).4.Aristotle5.Taxonomy6.Primatology7.Evolutionary8.Physiology9.Myrmecology10.Charles Darwin<p></p><p></p>Hope it helps☆<p></p><br />
+                                            <h2 class="ez-toc-section" id="manufactures-brass-musical-instruments-for-use-by-high-school-students-the-company-uses-a-normal-costing-system-in-which-manufacturing-overhead-is-applied-on-the-basis-of-direct-labor-hours">
+                            23. Manufactures brass musical instruments for use by high school students. the company uses a normal costing system, in which manufacturing overhead is applied on the basis of direct-labor hours</h2><br />
+                        <p>Ano sagot kailangan ko din Ng sagot</p><p><strong>Answer:</strong></p><p><strong>tama po iyan tama po</strong></p><p><strong>tama po iyan tama pohope it helps you</strong></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="bank-reconciliations-are-normally-prepared-on-a-monthly-basis-to-identify-adjustments-needed-in-the-depositors-records-and-to-identify-bank-errors-adjustments-on-the-part-of-the-depositor-shall-be-r">
+                            24. Bank reconciliations are normally prepared on a monthly basis to identify adjustments needed in the depositor's records and to identify bank errors. adjustments on the part of the depositor shall be recorded for</h2><br />
+                        <p><strong>Answer:</strong></p><p>test 2(two) or practice flashcard pa follow</p><br />
+                                            <h2 class="ez-toc-section" id="5-binge-eating-disorder-is-different-from-normal-appetite-increase-or-overeatingduring-holidays-those-with-a-binge-eating-problem-eat-large-amounts-of-foodbasis-they-eat-quickly-or-most-often-do-so">
+                            25. 5. Binge eating disorder is different from normal appetite increase or overeatingduring holidays. Those with a binge eating problem eat large amounts of foodbasis. They eat quickly or most often do something while eating.​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Binge Eating is compulsive eating.Poeple with binge eating problem eat a large amount of food in the regular basis.They often eat and do something else while coping up on something.Some factors can be lonely,angry or inadequate.They do as an extension of coping up with emotional problems and do not eliminate it after.This different from normal eating in holidays.Binge eating is not a disease,its a behavior that can be change and treated.</p><p><strong> </strong></p><p><strong>SIGNS </strong><strong>AND </strong><strong>SYMTOMPS:</strong></p><p><strong>•</strong><strong>G</strong><strong>R</strong><strong>I</strong><strong>E</strong><strong>F</strong></p><p><strong>•</strong><strong>D</strong><strong>I</strong><strong>S</strong><strong>G</strong><strong>U</strong><strong>S</strong><strong>T</strong><strong> </strong><strong>OR </strong><strong>SELF </strong><strong>HATRED </strong></p><p><strong>•</strong><strong>L</strong><strong>A</strong><strong>C</strong><strong>K</strong><strong> </strong><strong>OF </strong><strong>CONTROL </strong><strong>ONCE </strong><strong>BEGINS</strong><strong> </strong><strong>EATING</strong></p><p><strong>•</strong><strong>A</strong><strong>N</strong><strong>X</strong><strong>I</strong><strong>E</strong><strong>T</strong><strong>Y</strong>(a feeling of unease like worry or fear)</p><p><strong>•</strong><strong>S</strong><strong>H</strong><strong>A</strong><strong>M</strong><strong>E</strong>(feeling of unpleasant self- conscious)</p><p>•<strong>D</strong><strong>E</strong><strong>P</strong><strong>R</strong><strong>E</strong><strong>S</strong><strong>S</strong><strong>I</strong><strong>O</strong><strong>N</strong>(a mood disorder that can causes a persistent of sadness and loss of interest)</p><p></p><p><strong>EXPLAINATION:</strong></p><p><strong>TAG </strong><strong>ME </strong><strong>AS </strong><strong>A </strong><strong>BRAINLIEST</strong></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="what-should-be-the-basis-of-grader-students-in-the-first-year-of-the-new-normal-and-why%e2%80%8b">
+                            26. what should be the basis of grader students in the first year of the new normal and why?​</h2><br />
+                        <p><strong>Answer:</strong></p><p> to improve our site. You agree to our use of cookies by closing this message box or continuing to use our site. To find out more, including how to change your settings, see our cookie policy.</p><p></p><p>Cookie Settings</p><p>Skip to main content</p><p></p><p>YOU ARE HERE</p><p>HomeBlogAdjusting to the New Normal</p><p>We’ve recently updated our privacy policy. Click here to view.</p><p></p><p></p><p> </p><p>Adjusting to the New Normal</p><p>Adjusting to the New Normal</p><p>Transitioning from classroom teaching to online instruction is a challenge even under the best possible circumstances, let alone as an emergency response to the COVID-19 pandemic. In education, as in the rest of the world, it will take a while to adjust to the “new normal.”</p><p></p><p>Beyond the heartbreak associated with losing the classroom connection between educators and students, families who depend on their school community for resources and guidance may find themselves feeling adrift. After all, providing special services—such as translation for English Learners (ELs), support for students with disabilities, and meals for food-insecure families—has become significantly more complicated during the pandemic. In addition, the emotional component of living through this unprecedented period in modern history should not be overlooked; everyone needs to grieve for the school year they expected, even as they work to support each other in new and different ways.</p><p></p><p>While educators continue to adjust to the change, they should remember to treat themselves with the same compassion they show to students and families. By maintaining personal connections, establishing routines, and reimagining timelines, educators can create stability and support for themselves and their students—including those who belong to the most vulnerable populations.</p><p><strong>Explanation:</strong></p><p>Paki brainliest Po please </p><br />
+                                            <h2 class="ez-toc-section" id="true-or-false-write-the-explanation31-the-graph-of-a-normal-distribution-is-asymptotic-to-the-y-axis32-inflection-point-is-the-point-at-which-a-change-in-the-direction-of-curve-at-median-minusstanda">
+                            27. true or false.write the explanation31. The graph of a normal distribution is asymptotic to the Y-axis32. Inflection point is the point at which a change in the direction of curve at median minusstandard deviation and mean plus standard deviation.33.In a normal distribution about 88.3% of the area under the curve falls wihin 1standard deviation of the mean34. The variance and standard deviation describe the amount of spread, dispersion, orvariability of the items in a distribution35. Systematic random sampling is a sampling procedure in which members ofthe population are grouped on the basis of their homogeneity.36.A statistic is descriptive popu ation measure37. Parameter is the number that describes the sample.38. A random variable is a qualitative variable which value depends on change59. The Mean of a discrete random variable is also called as the expected value40 Multi-stage sampling uses a combination of different sampling techniques​</h2><br />
+                        <p><strong>Answer:</strong></p><p>31.True</p><p>32.True</p><p>33.false</p><p>34.true</p><p>35.false</p><p>36.True</p><p>37.true</p><p>38.true</p><p>39.true</p><p>40.true</p><br />
+                                            <h2 class="ez-toc-section" id="1-on-the-basis-of-the-assessment-instruction-process-write-down-your-thoughts-as-to-how-this-process-works-relate-your-line-of-discussions-in-a-regular-classroom-setting-and-compare-this-in-the-way">
+                            28. 1.on the basis of the assessment-instruction process, write down your thoughts as to how this process works. relate your line of discussions in a regular classroom setting and compare this in the way assessment can be administered in these times of "new normal".</h2><br />
+                        <p><strong>Answer:</strong></p><p>diko po alam</p><p>ty nalang po sa points</p><p></p><p><strong>Explanation:</strong></p><p>ty</p><br />
+                                            <h2 class="ez-toc-section" id="it-is-the-source-of-norms-values-symbols-and-language-which-provide-the-basis-for-the-normal-functioning-of-an-individual-a-counselor-must-include-openness-to-appreciate-the-nature%e2%80%8b">
+                            29. it is the source of norms values symbols and language which provide the basis for the normal functioning of an individual a counselor must include openness to appreciate the nature​</h2><br />
+                        <p><strong>Answer:</strong></p><p>Cultural norms are sets of behaviors and beliefs shared by members of a society or group of people. Cultural norms are typically transmitted by government, educational and family social systems. Members of a culture are often expected to conform to the norms of the greater culture.</p><br />
+                                            <h2 class="ez-toc-section" id="a-survey-was-conducted-in-a-particular-school-in-order-to-find-out-the-chosen-learning-modalities-of-the-students-for-the-new-normal-set-up-of-distance-education-the-results-serve-as-basis-for-the-pr">
+                            30. A survey was conducted in a particular school in order to find out the chosen learning modalities of the students for the new normal set-up of distance education. The results serve as basis for the preparation of learning materials for the upcoming opening of classes for school year 2020-2021.​ </h2><br />
+                        <p><strong>Answer:</strong></p><p>1. The bar group displayes the result of the survey that the students selected. </p><p>2. Grade 9</p><p>3. Senior High School</p><p>4. The bar graph is the result of the survey. </p><p>5. It shows that printed modular is higher than online modular as the learning modalities of the students for the new normal set up. </p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/mcNzDhvnbh0?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>math</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/bakat-nipples.html">Bakat Nipples</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/kursunada-meaning.html">Kursunada Meaning</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/sombras-in-english.html">Sombras In English</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/18-treasures-gift-ideas-and-meaning.html">18 Treasures Gift Ideas And Meaning</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/susunduin-kita-in-english.html">Susunduin Kita In English</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/reperensyal-na-pagsulat-halimbawa.html">Reperensyal Na Pagsulat Halimbawa</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/english-of-ambag.html">English Of Ambag</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/ano-ang-english-ng-bakal.html">Ano Ang English Ng Bakal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/akbay-in-english.html">Akbay In English</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/scandal-sa-cebu.html">Scandal Sa Cebu</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/express-tagalog.html">Express Tagalog</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/pundar-in-english.html">Pundar In English</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/hard-work-and-industry.html">Hard Work And Industry</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/board-exam-meaning.html">Board Exam Meaning</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/from-what-i-have-read.html">From What I Have Read</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/responsibility-meaning-in-tagalog.html">Responsibility Meaning In Tagalog</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/provincial-address-example.html">Provincial Address Example</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/pwd-cr.html">Pwd Cr</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/twitching-meaning-tagalog.html">Twitching Meaning Tagalog</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://progostudy.github.io/pamper-tagalog.html">Pamper Tagalog</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://progostudy.github.io"
+                            itemprop="url">QnA</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://progostudy.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://progostudy.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://progostudy.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://progostudy.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+    <script type='text/javascript' src='//jd3j7g5z1fqs.com/96/78/7a/96787a1945876b1a9c10f79941441964.js'></script>
+<script type='text/javascript' src='//jd3j7g5z1fqs.com/b4/f1/ef/b4f1ef8dfe59b7fa68754094cf6c8e0e.js'></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4739059,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4739059&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
